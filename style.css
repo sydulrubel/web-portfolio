@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-size: 40px;
+}
+.name{
+    color: chocolate;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}   
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeats;
+}
+section{
+    height: 500px;
+}
+
