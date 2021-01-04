@@ -22,11 +22,17 @@ h2{
 }   
 .top{
     background-image: url("images/top-banner.png");
-    background-repeat: no-repeats;
+    background-repeat:no-repeat;
 }
-.middel{
+.middle{
     background-image: url("images/dream-bg.png");
-    background-repeat: no-repeats;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 section{
     margin-bottom:20px;
@@ -41,4 +47,25 @@ section{
     font-weight: 500;
 
 }
+.shadow{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 250px;
 
+}
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 2;
+
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, purple);
+    border-image-slice: 2;
+}
+footer p{
+    font-size: 10px;
+    text-align: center;
+    
+}
