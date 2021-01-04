@@ -22,6 +22,16 @@ h1{
     background-repeat: no-repeats;
 }
 section{
+    margin-bottom:20px;
     height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-image: linear-gradient(rgb(240, 123, 77), rgb(55, 0, 255));
+    color: white;
+    font-weight: 500;
+
 }
 
